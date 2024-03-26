@@ -40,7 +40,7 @@ public class Main {
         props.put("name",c.name());
         props.put("modifiers",c.modifiers());
         props.put("qualifiedName",c.qualifiedName());
-        props.put("docStrings", c.commentText());
+        props.put("docString", c.commentText());
         Object superclass = null;
         if(c.superclass()!=null){
             superclass = new HashMap<String,Object>();
